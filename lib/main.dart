@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_wisata_candi_2627_51/data/candi_data.dart';
 import 'package:flutter_wisata_candi_2627_51/providers/favorite_provider.dart';
 import 'package:flutter_wisata_candi_2627_51/screens/detail_screen.dart';
+import 'package:flutter_wisata_candi_2627_51/screens/home_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: DetailScreen(candi: candiList[0]),
+      home: const HomeScreen(),
     );
   }
 }
